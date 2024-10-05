@@ -1,0 +1,9 @@
+cmd:
+    dotnet add package NUnit.ConsoleRunner
+    dotnet add package NUnit
+    dotnet add package Microsoft.NET.Test.Sdk
+    dotnet new nunit -o MyApp.Tests
+
+
+add to project.csproj:
+    <GenerateProgramFile>false</GenerateProgramFile>
