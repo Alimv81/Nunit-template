@@ -33,7 +33,17 @@ dotnet new nunit -o MyApp.Tests
 
 This will create a new test project directory called `MyApp.Tests`.
 
-### 3. Update the `.csproj` File
+### 3. Add Refrence to Unit test project
+
+to relate the testing project and main project in your command type:
+
+```bash
+dotnet add YourProject.Tests/YourProject.Tests.csproj reference YourProject/YourProject.csproj
+```
+
+This is needed for unit test to detect the project.
+
+### 4. Update the `.csproj` File
 
 In your `MyApp.Tests` project, update the `.csproj` file by adding the following line to disable the generation of a program file:
 
