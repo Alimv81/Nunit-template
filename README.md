@@ -1,8 +1,4 @@
-﻿Here's a `README.md` for your project:
-
----
-
-# MyApp.Tests
+﻿# MyApp.Tests
 
 This repository contains unit tests for the `MyApp` application using NUnit as the testing framework. Below are the steps to set up the test environment and run the tests.
 
